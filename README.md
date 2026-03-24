@@ -6,11 +6,11 @@ AstroGuard is an edge AI system that predicts bearing failures in satellite reac
 
 Validated on two NASA datasets: IMS bearings (7-day advance warning) and SMAP/MSL satellite telemetry (real-time anomaly detection).
 
-## What's New in v3 (vs v1)
+## What's New in v2 (vs v1)
 
 v1 was a proof of concept. v3 is a fundamentally different system.
 
-| | v1 | v3 |
+| | v1 | v2 |
 |---|---|---|
 | **Framework** | scikit-learn MLPRegressor (not a real autoencoder) | PyTorch symmetric autoencoder |
 | **Architecture** | Hardcoded `(8, 4)` layers | AutoBuilder searches 54 candidates and picks the best |
@@ -100,7 +100,7 @@ Enter the path to your data folder in the sidebar and press **INITIATE MISSION**
 
 ## Author
 
-**Mukhtar Gulsim** — NIS Taldykorgan, AEROO Space AI, 2026
+**Mukhtar Gulsim** — NIS Taldykorgan, 2026
 
 ## License
 

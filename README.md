@@ -8,7 +8,7 @@ Validated on two NASA datasets: IMS bearings (7-day advance warning) and SMAP/MS
 
 ## What's New in v2 (vs v1)
 
-v1 was a proof of concept. v3 is a fundamentally different system.
+v1 was a proof of concept. v2 is a fundamentally different system.
 
 | | v1 | v2 |
 |---|---|---|
@@ -22,7 +22,7 @@ v1 was a proof of concept. v3 is a fundamentally different system.
 | **Validation** | 1 dataset (IMS) | 2 datasets (IMS + SMAP/MSL satellite telemetry) |
 | **Adaptability** | Requires manual code changes for new data | Zero-configuration: point to any folder and run |
 
-The core innovation of v3 is **universality**: the system adapts to the data, not the other way around.
+The core innovation of v2 is **universality**: the system adapts to the data, not the other way around.
 
 ## Key Features
 

@@ -2,6 +2,8 @@
 
 **Universal autonomous AI for satellite reaction wheel prognostics.**
 
+<img src="logo/actroguardlogo.png" alt="logo" width="600">
+
 AstroGuard is an edge AI system that predicts bearing failures in satellite reaction wheels before they happen. It auto-detects the input data format, builds its own neural architecture, trains on healthy data only, and forecasts remaining useful life — all without manual configuration.
 
 Validated on two NASA datasets: IMS bearings (7-day advance warning) and SMAP/MSL satellite telemetry (real-time anomaly detection).

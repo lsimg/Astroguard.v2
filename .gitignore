@@ -1,0 +1,26 @@
+# Datasets
+archive/
+IMS/
+
+# Virtual environment
+.venv/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large data files (на всякий случай)
+*.csv
+*.pkl
+*.h5
+*.npy
+*.zip
+*.tar.gz
